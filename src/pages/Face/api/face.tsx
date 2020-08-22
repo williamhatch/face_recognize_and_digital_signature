@@ -13,7 +13,7 @@ export const getFullFaceDescription = async (blob: any, inputSize: any) => {
   }
   const OPTION = new faceapi.TinyFaceDetectorOptions({ inputSize, scoreThreshold: 0.5 });
 
-  const img = document.querySelector('img#static_img');
+  const img = document.querySelector('#static_img');
   if (!img) {
     throw new Error('need have a tag for img to load img preview!');
   }
