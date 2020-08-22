@@ -72,9 +72,9 @@ const VideoInput = () => {
       if (smile && openMouth) {
         return '通过!';
       }
-    } else {
-      return '请稍等 ...';
+      return '';
     }
+    return '请稍等 ...';
   };
 
   useInterval(() => capture(), 100);
