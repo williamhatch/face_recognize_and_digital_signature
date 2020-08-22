@@ -1,18 +1,18 @@
-##### requirement:
+##### 需求:
 
-[workflow](requirement/workflow.png)
+![image](requirement/workflow.png)
 
-##### how to start dev
+##### 如何开始
 
-make sure your nodejs version >= 10.18.1, otherwise please use nvm (or n) or upgrade your local node version
+确保 nodejs 版本 >= 10.18.1
 
 ```shell
-nvm use 14.7.0 (verified in mac and node version: 14.7.0)
+nvm use 14.7.0 (在mac nodejs 14.7.0 验证过)
 node -v
 yarn
 yarn start
 ```
 
-##### how to contribute
+##### 如何贡献代码或者提交 bug
 
-1. just fork and create a PRs
+1. just fork and create a PR
