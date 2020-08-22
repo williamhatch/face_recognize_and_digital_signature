@@ -42,7 +42,7 @@ export default defineConfig({
     },
     {
       path: '/welcome',
-      name: 'welcome',
+      name: '首页',
       icon: 'smile',
       component: './Welcome',
     },

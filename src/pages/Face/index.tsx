@@ -12,7 +12,7 @@ export default () => {
     }, 3000);
   }, []);
   return (
-    <PageContainer content="人脸识别测试页面！" className={styles.main}>
+    <PageContainer content="人脸识别中！" className={styles.main}>
       <div style={{ paddingTop: -200, textAlign: 'center' }}>
         <Spin spinning={loading} size="large" />
         <VideoInput />
