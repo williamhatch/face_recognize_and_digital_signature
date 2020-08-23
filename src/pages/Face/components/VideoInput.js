@@ -115,6 +115,7 @@ const VideoInput = () => {
         {/* {smile && <p>happy</p>}
         {openMouth && <p>open</p>} */}
         <p>{hint()}</p>
+        <img id="static_img" src="" alt="" style={{ display: 'none' }} />
       </div>
     </div>
   );

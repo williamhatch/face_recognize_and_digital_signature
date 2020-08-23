@@ -16,7 +16,6 @@ export default () => {
       <div style={{ paddingTop: -200, textAlign: 'center' }}>
         <Spin spinning={loading} size="large" />
         <VideoInput />
-        <img id="static_img" src="" alt="" style={{ display: 'none' }} />
       </div>
     </PageContainer>
   );
